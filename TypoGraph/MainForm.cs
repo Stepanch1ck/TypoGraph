@@ -43,7 +43,7 @@ namespace TypoGraph
 
             text = Regex.Replace(text, @"(?<=\w)\.(?=\w)", ". ");
 
-            text = Regex.Replace(text, @"!", "!!");
+            text = Regex.Replace(text, @"ПЧД", "Привет , что делаешь ?");
             text = Regex.Replace(text, @"ха", "хахахахахахахахахаха");
             text = Regex.Replace(text, @"вх", "вхвхвхвхвхвхвхвхвхвх");
 
